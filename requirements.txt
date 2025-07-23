@@ -1,0 +1,12 @@
+# requirements.txt
+
+# Versi spesifik untuk menghindari masalah kompatibilitas dengan kode yang ada
+python-telegram-bot==13.15
+
+# Library untuk userbot
+pyrogram
+
+# Diperlukan oleh Pyrogram untuk kecepatan enkripsi
+tgcrypto
+colorama
+rich
