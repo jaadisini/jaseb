@@ -1,7 +1,7 @@
 # database.py (FIXED: Rewritten with Thread-Safe Connections)
 import sqlite3, datetime, json, threading
 
-DB_NAME = 'jaseb_system.db'
+DB_NAME = 'jaseb_system_empty.db'
 # Membuat objek thread-local untuk menyimpan koneksi database per-thread
 thread_local = threading.local()
 
